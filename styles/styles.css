@@ -1,0 +1,63 @@
+/* selector de etiquetas*/
+/* exite distinta especificidad entre etiquetas
+   id > clase > etiqueta  */
+/* CSS es clase de estilos en cascada, se queda con lo ultimo que leyo*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.presentacion {
+  margin-top: 90px;
+}
+.btn-nav-select {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 12px 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-nav {
+  background-color: white;
+  color: green;
+  border: none;
+  padding: 12px 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.form-contacto {
+  padding: 12px 8px;
+  border-radius: 8px;
+  border: 1px solid green;
+}
+.image {
+  width: 200px;
+}
+.social-icon {
+  color: #157347;
+  text-decoration: none;
+  font-size: 32px;
+}
+.contenedor-gral {
+  display: flex;
+  flex-direction: column;
+}
+main {
+      position: 100vh;
+       /* El contenido principal ocupa el espacio restante */
+    }
+
+footer {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      text-align: center;
+    }
